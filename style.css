@@ -1,0 +1,243 @@
+/* By PAWAN JAIN  */
+
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #90AFC5;
+    font-family: sans-serif;
+}
+/* <----------- this is container of road ------------------> */
+#container{
+    position: relative;
+    height: 90vh;
+    width: 30%;
+    left: 35%;
+    margin-top: 20px;
+    background-color: #292929;
+    overflow: hidden;
+    border: 4px solid grey;
+}
+/* <----------------ends here---------------------------------> */
+
+
+/* <-----------this is line between road----------------------> */
+.line{
+    position: absolute;
+    height: 150px;
+    width: 4%;
+    margin-left: 48%;
+    background-color: whitesmoke;
+}
+#line_1{
+    top: -150px;
+}
+#line_2{
+    top: 150px;
+}
+#line_3{
+    top: 450px;
+}
+
+/*<------------------ends here -----------------------------------> */
+
+
+
+/* <----------- this is about car style ------------------> */
+.car{
+    position: absolute;
+    height: 70px;
+    width: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px 0px black;
+}
+#car{
+    bottom: 2%;
+    left: 60%;
+    background-color: #ffdf5a;
+}
+
+#car_1{
+    top: -100px;
+    left: 60%;
+    height: 60px;
+    background-color: orange;
+}
+#car_2{
+    top: -200px;
+    left: 40%;
+    height: 70px;
+    background-color: #26c5ff;
+}
+#car_3{
+    top: -350px;
+    left: 50%;
+    height: 80px;
+    background-color: pink;
+}
+
+
+/*<------------------ends here -----------------------------------> */
+
+
+/* <----------- this is about cars features ------------------> */
+.f_glass{
+    position: absolute;
+    height: 20%;
+    width: 60%;
+    margin-left: 20%;
+    top: 15%;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #484848;
+}
+.b_glass{
+    position: absolute;
+    height: 20%;
+    width: 60%;
+    margin-left: 20%;
+    bottom: 15%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #45d678;
+}
+.f_light_l{
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    margin-left: 10%;
+    top: -6%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: orangered;
+}
+.f_light_r{
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    margin-left: 70%;
+    top: -6%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: orangered;
+}
+.f_tyre_l{
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    background-color: grey;
+    top: 20%;
+    left: -20%;
+    border-radius: 50%;
+}
+.f_tyre_r{
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    background-color: grey;
+    top: 20%;
+    left: 100%;
+    border-radius: 50%;
+}
+.b_tyre_l{
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    background-color: grey;
+    top: 70%;
+    left: -20%;
+    border-radius: 50%;
+}
+.b_tyre_r{
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    background-color: grey;
+    top: 70%;
+    left: 100%;
+    border-radius: 50%;
+}
+
+/*<------------------ends here -----------------------------------> */
+
+
+/* <----------- this is about restart button ------------------> */
+#restart_div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #292929;
+    color: white;
+    
+    font-size: 40px;
+    text-align: center;
+    display: none;
+}
+
+#restart {
+    border: none;
+    padding: 25px;
+    color:green;
+    background-color: white;
+    font-size: 30px;
+    margin-top: 10%;
+    font-family: cursive
+}
+
+
+/*<------------------ends here -----------------------------------> */
+
+/* <----------- this is about various div ------------------> */
+
+#score_div{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 10%;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: #454545;
+    padding: 10px;
+    box-shadow: 4px 4px 0px 1px #808080;
+    
+}
+
+#name_div{
+    position: absolute;
+    top:0;
+    right: 0;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: #454545;
+    padding: 10px;
+    box-shadow: 4px 4px 0px 1px #808080;
+    
+}
+#lov_div{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: red;
+    padding: 5px;
+    padding-left: 10px;
+    box-shadow: 1px 0px 4px 4px #808080;  
+}
+
+/*<------------------ends here -----------------------------------> */
+
+
+#help{
+    text-align: center;
+    color: blue;
+    font-family: cursive
+}
+
+.small_text{
+    font-size: 15px;
+    color: red;
+    font-family: cursive
+}
+
+/*<---------------------------------------------------- css  ends here ------------------------------------------------------> */
+
