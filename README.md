@@ -1,6 +1,6 @@
 # Racing_Car
 
-You can play at [bit.ly/jainpa1RacingCar](bit.ly/jainpa1RacingCar)
+You can play at [here](bit.ly/jainpa1RacingCar)
 
 Screenshots
 
