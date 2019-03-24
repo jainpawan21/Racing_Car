@@ -1,6 +1,6 @@
 # Racing_Car
 
-You can play <a href="bit.ly/jainpa1RacingCar">Here</a>
+You can play <a href="http://jainpa1.000webhostapp.com/">Here</a>
 
 Screenshots
 
