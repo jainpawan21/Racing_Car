@@ -1,4 +1,4 @@
-# Racing_Ca
+# Racing_Car
 This is game made with HTML, CSS, jQuery. This can be played in desktop having keyboard because it requires keys to operate the car.
 Car can be made left, right, up and down using respective keys of keyboard.
 
